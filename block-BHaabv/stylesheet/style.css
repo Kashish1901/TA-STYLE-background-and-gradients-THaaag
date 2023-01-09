@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+body{
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(29,32,41);
+}
+.container{
+    max-width: 1400px;
+    margin: 32px auto;
+    padding: 24px auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background-color: rgb(32,34,47);
+    padding: 40px 0;
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.header h3{
+    font-size: 24px;
+    color: #787981;
+}
+.header span{
+    font-size: 24px;
+    color: #787981;
+}
+button{
+    width: 60px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background: linear-gradient(to right ,rgb(69,146,198), rgb(61,198,158));
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(45,42,65);
+}
+.card-container{
+    padding: 30px 0;
+}
+.card{
+    width: 22%;
+    background-color: rgb(37,43,67);
+    padding: 32px;
+    text-align: center;
+    color: rgb(140,150,183);
+    font-size: 24px;
+    border-radius: 5px;
+    margin-right: 30px;
+   position: relative;
+}
+header{
+    margin-bottom: 32px 0;
+}
+.card a{
+    margin-right: 8px;
+    color: rgb(29,144,232);
+}
+.card h2{
+    font-size: 60px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-top: 40px ;
+}
+.card-body{
+    line-height: 1;
+}
+.card-body p{
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: 300;
+}
+.card-footer{
+    color: rgb(32,116,107);
+    margin-top: 20px;
+}
+.card-fb, 
+.card-twitt
+{
+    border-top: 5px solid rgb(24,143,245);
+}
+.card-utube{
+    border-top: 5px solid rgb(194,4,42);
+}
+.card-utube span, 
+.card-utube a
+{
+color: rgb(194,4,42);
+}
+.border-top{
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right,rgb(246,174,108), rgb(225,92,143));
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.overview-card{
+    width: 22%;
+    background-color: rgb(37,43,67);
+    padding: 32px;
+    text-align: center;
+    color: rgb(140,150,183);
+    font-size: 24px;
+    border-radius: 5px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+h4{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px 0;
+}
+.views-card .card-header,
+.likes-card .card-header{
+    margin-bottom: 40px;
+}
+h5{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+.views-card span{
+    color: rgb(32,116,107);
+}
+.likes-card span{
+    color: red;
+}
+.utube-card a{
+    color: red;
+}
+.twitt-card a{
+    color: rgb(26,161,241);
+}
